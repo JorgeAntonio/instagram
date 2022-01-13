@@ -1,0 +1,19 @@
+{
+    "name": "user/instagram",
+    "autoload": {
+        "psr-4": {
+            "User\\Instagram\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antonio Del Aguila",
+            "email": "56671752+JorgeAntonio@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "^1.6",
+        "vlucas/phpdotenv": "^5.4",
+      "ext-pdo": "*"
+    }
+}
